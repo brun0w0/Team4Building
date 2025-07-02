@@ -1,0 +1,100 @@
+.header {
+    background-color: #2f5d8c;
+    margin: -8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto';
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Roboto Slab", serif;
+    padding: 10px;
+    align-items: baseline;
+}
+
+.logo .team {
+    color: white;
+}
+
+.logo .number {
+    color: #caff0c;
+    font-size: 64px;
+}
+
+.logo .building {
+    color: white;
+    display: block;
+    margin-top: -25px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0px 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav a:hover {
+    color: #caff0c;
+}
+
+.nav .divider {
+    color: white;
+    margin: 0 5px;
+}
+
+.hamburger {
+    display: none;
+    font-size: 32px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+        margin-top: 1.5em;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .nav.open {
+        display: flex;
+    }
+
+    .nav a,
+    .nav .divider {
+        font-size: 18px;
+        margin: 5px 0;
+    }
+
+    .nav .divider {
+        color: transparent;
+    }
+
+    .header {
+        align-items: flex-start;
+    }
+}
