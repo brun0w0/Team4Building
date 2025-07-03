@@ -18,6 +18,14 @@
     align-items: baseline;
 }
 
+a {
+    text-decoration: none;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
 .logo .team {
     color: white;
 }

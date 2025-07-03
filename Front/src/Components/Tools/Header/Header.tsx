@@ -6,12 +6,13 @@ function Header() {
 
     return (
         <header className="header">
-            <div className="logo">
-                <span className="team">TEAM</span>
-                <span className="number">4</span>
-                <span className="building">Building</span>
-            </div>
-
+            <a href="/">
+                <div className="logo">
+                    <span className="team">TEAM</span>
+                    <span className="number">4</span>
+                    <span className="building">Building</span>
+                </div>
+            </a>
             <button
                 className="hamburger"
                 onClick={() => setMenuOpen(!menuOpen)}
@@ -20,17 +21,17 @@ function Header() {
             </button>
 
             <nav className={`nav ${menuOpen ? "open" : ""}`}>
-                <a href="#">Inicio</a>
+                <a href="/">Inicio</a>
                 <span className="divider">|</span>
-                <a href="#">Teambuildings</a>
+                <a href="/teambuilding">Teambuildings</a>
                 <span className="divider">|</span>
-                <a href="#">Empresas</a>
+                <a href="/empresas">Empresas</a>
                 <span className="divider">|</span>
-                <a href="#">Nosotros</a>
+                <a href="/nosotros">Nosotros</a>
                 <span className="divider">|</span>
-                <a href="#">Preguntas Frecuentes</a>
+                <a href="/preguntas-frecuentes">Preguntas Frecuentes</a>
                 <span className="divider">|</span>
-                <a href="#">Contacto</a>
+                <a href="/contacto">Contacto</a>
             </nav>
         </header>
     );

@@ -1,6 +1,6 @@
 import './Inicio.css';
-import Header from "../Header/Header";
-import Footer from '../Footer/Footer';
+import Header from "../../Tools/Header/Header";
+import Footer from '../../Tools/Footer/Footer';
 
 function Inicio() {
     function scrollCarousel(direction: number) {

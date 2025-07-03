@@ -1,0 +1,48 @@
+.notfound-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(5deg, #3578bc, #8cc63f);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.notfound-box {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 3rem 4rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.notfound-box h1 {
+    font-size: 6rem;
+    margin: 0;
+}
+
+.notfound-box p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.notfound-box span {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.progress-bar {
+    margin-top: 1.5rem;
+    width: 100%;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background-color: white;
+    width: 0%;
+    transition: width 0.05s linear;
+}

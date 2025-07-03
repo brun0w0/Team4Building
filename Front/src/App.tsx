@@ -1,5 +1,11 @@
 import { Route, Routes } from "react-router-dom"
-import Home from "./Pages/Inicio/Inicio"
+import Home from "./Pages/Home/Home"
+import Teambuildings from "./Pages/Teambuildings/Teambuildings"
+import Empresas from "./Pages/Empresas/Empresas"
+import Nosotros from "./Pages/Nosotros/Nosotros"
+import PreguntasFrecuentes from "./Pages/PreguntasFrecuentes/PreguntasFrecuentes"
+import Contacto from "./Pages/Contacto/Contacto"
+import Error404 from "./Pages/Error404/Error404"
 
 function App() {
 
@@ -7,6 +13,15 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home/>}/>
+      <Route path="/teambuildings" element={<Teambuildings/>}/>
+      <Route path="/empresas" element={<Empresas/>}/>
+      <Route path="/nosotros" element={<Nosotros/>}/>
+      <Route path="/preguntas-frecuentes" element={<PreguntasFrecuentes/>}/>
+      <Route path="/contacto" element={<Contacto/>}/>
+
+
+
+      <Route path="*" element={<Error404/>}/>
     </Routes>
   )
 }

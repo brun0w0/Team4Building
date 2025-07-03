@@ -1,4 +1,4 @@
-import Inicio from "../../Components/Inicio/Inicio";
+import Inicio from "../../Components/Links/Inicio/Inicio";
 
 function Home() {
     return <Inicio/>
