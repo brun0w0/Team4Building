@@ -23,7 +23,7 @@ function Header() {
             <nav className={`nav ${menuOpen ? "open" : ""}`}>
                 <a href="/">Inicio</a>
                 <span className="divider">|</span>
-                <a href="/teambuilding">Teambuildings</a>
+                <a href="/teambuildings">Teambuildings</a>
                 <span className="divider">|</span>
                 <a href="/empresas">Empresas</a>
                 <span className="divider">|</span>
@@ -32,6 +32,8 @@ function Header() {
                 <a href="/preguntas-frecuentes">Preguntas Frecuentes</a>
                 <span className="divider">|</span>
                 <a href="/contacto">Contacto</a>
+                <span className="divider">|</span>
+                <a href="/login">Login</a>
             </nav>
         </header>
     );

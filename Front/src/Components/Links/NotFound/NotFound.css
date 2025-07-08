@@ -3,9 +3,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(5deg, #3578bc, #8cc63f);
+    background: linear-gradient(5deg, #8bc63fbb, #8cc63f);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .notfound-box {

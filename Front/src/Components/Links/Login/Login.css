@@ -1,0 +1,23 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.login-body {
+    padding: 10px;
+}
+
+.login-body h1 {
+    font-family: 'Roboto slab';
+    text-align: center;
+    font-size: 3em;
+    color: #d64900;
+}
+
+.login-body p {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 20px;
+}

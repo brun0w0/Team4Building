@@ -3,6 +3,8 @@
     margin: -8px;
 }
 
+
+/**SECCIÓN 1**/
 .section {
     position: relative;
     width: 100%;
@@ -20,8 +22,9 @@
 
 .section-text {
     position: absolute;
-    top: 5.5em;
-    left: 40%;
+    bottom: 2em;
+    /* En lugar de top */
+    left: 35%;
     transform: translateX(-50%);
     color: white;
     font-size: 48px;
@@ -74,21 +77,14 @@
 
 @media (max-width: 768px) {
     .form-box {
-        right: 50%;
-        transform: translateX(50%);
-        top: 120px;
-        padding: 10px;
-        max-width: 90%;
-    }
-
-    .form-box button {
-        padding: 10px 30px;
-        font-size: 16px;
+        position: static;
+        margin: 1.5em auto 0 auto;
+        transform: none;
     }
 
     .section-text {
         font-size: 28px;
-        top: 20px;
+        top: 7em;
         width: 95%;
         padding: 0 10px;
         text-align: center;
@@ -205,7 +201,7 @@
     align-items: center;
     background-color: white;
     padding: 40px;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
 }
 
 .video-section4 {
@@ -276,7 +272,7 @@
 
 
 /***SECCIÓN 5***/
-.section5{
+.section5 {
     position: relative;
     width: 100%;
     overflow: hidden;
