@@ -6,7 +6,8 @@ import Nosotros from "./Pages/Nosotros/Nosotros"
 import PreguntasFrecuentes from "./Pages/PreguntasFrecuentes/PreguntasFrecuentes"
 import Contacto from "./Pages/Contacto/Contacto"
 import Error404 from "./Pages/Error404/Error404"
-import InicioSesion from "./Pages/InicioSesion/InicioSesion"
+import Registro from "./Pages/Registro/Registro"
+import Login from "./Components/Links/Login/Login"
 
 function App() {
 
@@ -19,7 +20,8 @@ function App() {
       <Route path="/nosotros" element={<Nosotros/>}/>
       <Route path="/preguntas-frecuentes" element={<PreguntasFrecuentes/>}/>
       <Route path="/contacto" element={<Contacto/>}/>
-      <Route path="/login" element={<InicioSesion/>}/>
+      <Route path="/register" element={<Registro/>}/>
+      <Route path="/login" element={<Login/>}/>
 
 
 

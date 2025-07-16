@@ -4,9 +4,9 @@ export declare class UsuariosController {
     private readonly usuariosService;
     constructor(usuariosService: UsuariosService);
     create(createUsuarioDto: CreateUsuarioDto): Promise<{
-        id: number;
         email: string;
         password: string;
+        id: number;
         creado_en: Date | null;
     }>;
 }

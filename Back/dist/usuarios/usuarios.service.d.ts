@@ -4,15 +4,15 @@ export declare class UsuariosService {
     private prisma;
     constructor(prisma: PrismaService);
     create(data: CreateUsuarioDto): Promise<{
-        id: number;
         email: string;
         password: string;
+        id: number;
         creado_en: Date | null;
     }>;
     findByEmail(email: string): Promise<{
-        id: number;
         email: string;
         password: string;
+        id: number;
         creado_en: Date | null;
     } | null>;
 }

@@ -6,37 +6,37 @@ export declare class ServiciosService {
     constructor(prisma: PrismaService);
     create(data: CreateServicioDto): import(".prisma/client").Prisma.Prisma__serviciosClient<{
         id: number;
-        empresa_id: number;
         nombre: string;
         descripcion: string | null;
+        empresa_id: number;
         imagen_url: string | null;
     }, never, import("@prisma/client/runtime/library").DefaultArgs, import(".prisma/client").Prisma.PrismaClientOptions>;
     findAll(): import(".prisma/client").Prisma.PrismaPromise<{
         id: number;
-        empresa_id: number;
         nombre: string;
         descripcion: string | null;
+        empresa_id: number;
         imagen_url: string | null;
     }[]>;
     findOne(id: number): import(".prisma/client").Prisma.Prisma__serviciosClient<{
         id: number;
-        empresa_id: number;
         nombre: string;
         descripcion: string | null;
+        empresa_id: number;
         imagen_url: string | null;
     } | null, null, import("@prisma/client/runtime/library").DefaultArgs, import(".prisma/client").Prisma.PrismaClientOptions>;
     update(id: number, data: UpdateServicioDto): Promise<{
         id: number;
-        empresa_id: number;
         nombre: string;
         descripcion: string | null;
+        empresa_id: number;
         imagen_url: string | null;
     }>;
     remove(id: number): Promise<{
         id: number;
-        empresa_id: number;
         nombre: string;
         descripcion: string | null;
+        empresa_id: number;
         imagen_url: string | null;
     }>;
 }

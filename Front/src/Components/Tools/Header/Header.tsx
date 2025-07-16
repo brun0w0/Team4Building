@@ -33,7 +33,7 @@ function Header() {
                 <span className="divider">|</span>
                 <a href="/contacto">Contacto</a>
                 <span className="divider">|</span>
-                <a href="/login">Login</a>
+                <a href="/register">Empezar</a>
             </nav>
         </header>
     );

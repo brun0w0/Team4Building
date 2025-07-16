@@ -7,8 +7,8 @@ export declare class ProspectosController {
     create(createProspectoDto: CreateProspectoDto): import(".prisma/client").Prisma.Prisma__prospectosClient<{
         id: number;
         creado_en: Date | null;
-        empresa_id: number;
         nombre: string;
+        empresa_id: number;
         correo: string | null;
         telefono: string | null;
         status: import(".prisma/client").$Enums.prospectos_status | null;
@@ -18,8 +18,8 @@ export declare class ProspectosController {
     findAll(): import(".prisma/client").Prisma.PrismaPromise<{
         id: number;
         creado_en: Date | null;
-        empresa_id: number;
         nombre: string;
+        empresa_id: number;
         correo: string | null;
         telefono: string | null;
         status: import(".prisma/client").$Enums.prospectos_status | null;
@@ -29,8 +29,8 @@ export declare class ProspectosController {
     findOne(id: string): import(".prisma/client").Prisma.Prisma__prospectosClient<{
         id: number;
         creado_en: Date | null;
-        empresa_id: number;
         nombre: string;
+        empresa_id: number;
         correo: string | null;
         telefono: string | null;
         status: import(".prisma/client").$Enums.prospectos_status | null;
@@ -40,8 +40,8 @@ export declare class ProspectosController {
     update(id: string, updateProspectoDto: UpdateProspectoDto): Promise<{
         id: number;
         creado_en: Date | null;
-        empresa_id: number;
         nombre: string;
+        empresa_id: number;
         correo: string | null;
         telefono: string | null;
         status: import(".prisma/client").$Enums.prospectos_status | null;
@@ -51,8 +51,8 @@ export declare class ProspectosController {
     remove(id: string): Promise<{
         id: number;
         creado_en: Date | null;
-        empresa_id: number;
         nombre: string;
+        empresa_id: number;
         correo: string | null;
         telefono: string | null;
         status: import(".prisma/client").$Enums.prospectos_status | null;
