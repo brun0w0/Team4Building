@@ -15,12 +15,14 @@ function Login() {
                         <label htmlFor="">Usuario</label>
                         <input
                             type="text"
-                            placeholder=""
+                            placeholder="Ingresa tu nombre de usuario"
                             required
                         />
                         <label htmlFor="">Contraseña</label>
-                        <input type="password"
+                        <input
+                            type="password"
                             required
+                            placeholder="Ingresa tu contraseña"
                         />
                         <button className="login-button">Entrar</button>
                     </form>

@@ -20,7 +20,7 @@
 }
 
 .faq-question {
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: bold;
     transition: color 0.3s ease;
 }
@@ -37,7 +37,7 @@
 
 .faq-answer p {
     margin: 0;
-    font-size: 1em;
+    font-size: 1.2em;
     color: #333;
     text-align: justify;
 }

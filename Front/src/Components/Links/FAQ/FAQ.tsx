@@ -13,17 +13,34 @@ function FAQ() {
         },
         {
             question: "¿Cómo puede una empresa registrarse?",
-            answer: "Una empresa puede registrarse llenando un formulario con sus datos y luego publicar sus servicios en la plataforma."
+            answer: "Las empresas pueden registrarse creando una cuenta y completando su perfil con la información de sus servicios."
         },
         {
             question: "¿Tiene algún costo el registro?",
-            answer: "Por el momento, el registro y publicación de servicios en la plataforma es completamente gratuito."
+            answer: "Actualmente, el registro y publicación de servicios en la plataforma es gratuito."
         },
         {
             question: "¿Quién puede utilizar esta plataforma?",
-            answer: "Está diseñada tanto para empresas proveedoras de servicios como para organizaciones interesadas en contratar actividades de integración laboral."
-        }
+            answer: "Está diseñada tanto para empresas que ofrecen actividades como para organizaciones interesadas en contratarlas."
+        },
+        {
+            question: "¿Cómo puedo buscar una empresa o servicio?",
+            answer: "Puedes usar el buscador de la plataforma o dirigirte al apartado 'Empresas' en la barra de navegación para encontrar empresas que se ajusten a tus necesidades."
+        },
+        {
+            question: "¿Puedo actualizar mi información después de registrarme?",
+            answer: "Sí, desde tu panel de usuario puedes editar tus datos y la información de tus servicios en cualquier momento."
+        },
+        {
+            question: "¿Qué tipo de actividades puedo encontrar?",
+            answer: "Desde dinámicas al aire libre y deportes extremos hasta talleres virtuales, capacitación y actividades creativas."
+        },
+        {
+            question: "¿Es seguro compartir mis datos en la plataforma?",
+            answer: "Sí, protegemos la información de nuestros usuarios y usamos protocolos seguros para su manejo."
+        },
     ];
+
 
     const toggleFAQ = (index) => {
         setActiveIndex(prevIndex => (prevIndex === index ? null : index));

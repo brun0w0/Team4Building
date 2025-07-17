@@ -23,7 +23,6 @@
 .section-text {
     position: absolute;
     bottom: 2em;
-    /* En lugar de top */
     left: 35%;
     transform: translateX(-50%);
     color: white;
@@ -131,7 +130,7 @@
 
 .section2-p p {
     margin-bottom: 15px;
-    font-size: 14px;
+    font-size: 1.2em;
     color: #333;
     line-height: 1.6;
     font-family: 'Roboto';
@@ -229,7 +228,7 @@
 
 .section4-p p {
     margin-bottom: 15px;
-    font-size: 14px;
+    font-size: 1.2em;
     color: #333;
     line-height: 1.6;
     font-family: 'Roboto';
