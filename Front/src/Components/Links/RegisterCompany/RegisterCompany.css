@@ -1,0 +1,154 @@
+.regisempresa-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+.arriba-regisempresa {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.arriba-regisempresa h1 {
+    font-size: 2.5em;
+    color: #d64900;
+    font-weight: bold;
+    font-family: 'Roboto slab';
+}
+
+.arriba-regisempresa p {
+    font-size: 1.1em;
+    color: #333;
+}
+
+.naranja {
+    color: #d64900;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-regisempresa {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.form-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+@media (max-width: 768px) {
+    .form-columns {
+        grid-template-columns: 1fr;
+        margin: -10px -50px;
+    }
+
+    .form-column {
+        margin-bottom: 10px;
+        max-width: 75%;
+    }
+
+    .form-column h2 {
+        text-align: center;
+    }
+
+    .preview-image {
+        max-width: 100%;
+    }
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px #a3cb1184;
+    padding: 2px 25px;
+    border-radius: 20px;
+}
+
+.form-column h2 {
+    font-size: 1.5em;
+    color: #a3cb11;
+    margin-bottom: 15px;
+    text-align: left;
+    font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-column input,
+textarea {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #d64900;
+    box-shadow: 0 0 5px rgba(214, 73, 0, 0.5);
+}
+
+textarea {
+    resize: none;
+}
+
+.boton-regisempresa {
+    background-color: #d64900;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+}
+
+.boton-regisempresa:hover {
+    background-color: #a93c00;
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para input file */
+input[type="file"] {
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/* Vista previa */
+.preview-image {
+    margin-top: 8px;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

@@ -1,20 +1,90 @@
 .contact-container {
-    padding: 20px;
-    background-color: #f9f9f9;
     text-align: center;
+    margin: 30px auto;
+    font-family: 'Roboto';
+    width: 90%;
+    max-width: 500px;
 }
 
 .contact-title {
     font-size: 2.5em;
     color: #d64900;
-    margin-bottom: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
     font-family: 'Roboto slab';
 }
 
 .contact-description {
-    font-size: 1.2em;
-    margin-bottom: 40px;
-    font-family: 'Roboto';
-    max-width: 80%;
-    margin: 0 auto;
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-form label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+    border-color: #d64900;
+    box-shadow: 0 0 5px rgba(214, 73, 0, 0.5);
+}
+
+.elige-empresa{
+    text-align: left;
+    color: #686868;
+    margin: 7px 0px;
+}
+
+.link-elige {
+    color: #d64900;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-button {
+    background-color: #d64900;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #a93c00;
 }

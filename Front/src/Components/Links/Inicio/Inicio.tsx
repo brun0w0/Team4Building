@@ -152,9 +152,6 @@ function Inicio() {
                             <img src="https://maderasytoldosparedes.es/wp-content/uploads/2024/03/LOGO-Maderas-y-Toldos-y-Paredes.png" alt="" />
                         </a>
                         <a href="#">
-                            <img src="https://logosmarcas.net/wp-content/uploads/2021/03/Disney-Logo.png" alt="" />
-                        </a>
-                        <a href="#">
                             <img src="https://static.vecteezy.com/system/resources/previews/024/553/853/non_2x/colorful-eagle-head-logo-pop-art-style-eagle-face-sticker-pastel-cute-colors-ai-generated-png.png" alt="" />
                         </a>
                         <a href="#">
