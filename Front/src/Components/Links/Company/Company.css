@@ -1,14 +1,145 @@
-.company1 {
+.company-header {
     text-align: center;
+    margin: 30px auto;
+    padding: 10px;
 }
 
-.company1 h1 {
+.company-header h1 {
     font-size: 2.5em;
-    font-family: 'Roboto slab';
     color: #d64900;
+    margin-bottom: 10px;
+    font-family: 'Roboto slab';
 }
 
-.company1 p {
+.company-header p {
     font-size: 1.2em;
+    color: #333;
     font-family: 'Roboto';
+}
+
+.company-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 90%;
+    margin: 30px auto;
+}
+
+.company-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    font-family: 'Roboto';
+}
+
+.company-card:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.company-logo {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #d647006e;
+}
+
+.company-card-banner {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 8;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.company-banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5) opacity(0.7);
+    display: block;
+}
+
+.company-logo-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #d64900;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.company-card h2 {
+    margin-top: 35px;
+}
+
+.company-card p {
+    color: #646464;
+    font-size: 1em;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.negrita {
+    font-weight: bolder;
+    color: #000;
+}
+
+.descripcion-empresa {
+    background-color: #ffbf9f4e;
+    padding: 20px;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+
+.descripcion-empresa-titulo {
+    color: #000;
+    font-weight: bolder;
+}
+
+.ver-actividades-btn {
+    background-color: #d64900;
+    color: #fff;
+    border: none;
+    padding: 12px 18px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 100%;
+}
+
+.ver-actividades-btn:hover {
+    background-color: #a93c00;
+}
+
+@media (max-width: 768px) {
+    .company-card {
+        padding: 15px;
+    }
+
+    .company-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .company-card h2 {
+        font-size: 1.3em;
+    }
+
+    .ver-actividades-btn {
+        font-size: 14px;
+    }
+
 }

@@ -9,6 +9,7 @@ import Error404 from "./Pages/Error404/Error404"
 import Registro from "./Pages/Registro/Registro"
 import Login from "./Components/Links/Login/Login"
 import RegistroEmpresa from "./Pages/RegistroEmpresa/RegistroEmpresa"
+import CrearActividad from "./Pages/CrearActividad/CrearActividad"
 
 function App() {
 
@@ -26,7 +27,8 @@ function App() {
       <Route path="/login" element={<Login/>}/>
 
       {/* Rutas que deberian aparecer si solo esta la sesion iniciada */}
-      <Route path="/registrarempresa" element={<RegistroEmpresa/>}/>
+      <Route path="/registrar-empresa" element={<RegistroEmpresa/>}/>
+      <Route path="/crear-actividad" element={<CrearActividad/>}/>
       
 
       {/*Rutas a parte */}
