@@ -1,0 +1,101 @@
+.optionscompany-container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+    font-family: 'Roboto';
+}
+
+.optionscompany-title {
+    font-size: 2.2em;
+    color: #d64900;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Roboto slab';
+}
+
+.optionscompany-description {
+    text-align: center;
+    color: #444;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+}
+
+.highlight {
+    color: #d64900;
+    font-weight: bold;
+}
+
+.optionscompany-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.optionscompany-table th,
+.optionscompany-table td {
+    border: 1px solid #00000029;
+    padding: 12px;
+    text-align: left;
+}
+
+.optionscompany-table th {
+    background-color: #ffffff;
+    color: #333;
+}
+
+.optionscompany-table tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.action-cell {
+    text-align: right;
+}
+
+.btn-eliminar-empresa {
+    background-color: #d64900;
+    color: #fff;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-eliminar-empresa:hover {
+    background-color: #a93c00;
+}
+
+.no-data {
+    text-align: center;
+    color: #666;
+    padding: 20px;
+    font-style: italic;
+}
+
+@media (max-width: 640px) {
+
+    .optionscompany-table th:nth-child(2),
+    .optionscompany-table td:nth-child(2),
+    .optionscompany-table th:nth-child(3),
+    .optionscompany-table td:nth-child(3),
+    .optionscompany-table th:nth-child(4),
+    .optionscompany-table td:nth-child(4) {
+        display: none;
+    }
+
+    .action-cell {
+        text-align: center;
+    }
+}
+
+.swal-title,
+.swal-text,
+.swal-confirm,
+.swal-cancel {
+    font-family: 'Roboto', sans-serif;
+}
+
+.swal-confirm,
+.swal-cancel {
+    font-size: 16px;
+}

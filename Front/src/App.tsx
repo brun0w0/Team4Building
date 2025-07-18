@@ -10,6 +10,8 @@ import Registro from "./Pages/Registro/Registro"
 import Login from "./Components/Links/Login/Login"
 import RegistroEmpresa from "./Pages/RegistroEmpresa/RegistroEmpresa"
 import CrearActividad from "./Pages/CrearActividad/CrearActividad"
+import OpcionesActividad from "./Pages/OpcionesActividad/OpcionesActividad"
+import OpcionesEmpresa from "./Pages/OpcionesEmpresa/OpcionesEmpresa"
 
 function App() {
 
@@ -29,6 +31,8 @@ function App() {
       {/* Rutas que deberian aparecer si solo esta la sesion iniciada */}
       <Route path="/registrar-empresa" element={<RegistroEmpresa/>}/>
       <Route path="/crear-actividad" element={<CrearActividad/>}/>
+      <Route path="/opciones-actividad" element={<OpcionesActividad/>}/>
+      <Route path="/opciones-empresa" element={<OpcionesEmpresa/>}/>
       
 
       {/*Rutas a parte */}

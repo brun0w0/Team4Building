@@ -17,7 +17,7 @@ const empresasData = [
                 descripcion:
                     "Actividad enfocada en fortalecer la confianza entre los miembros del equipo por medio de ejercicios guiados y reflexión grupal. Se estructura en fases progresivas que van de dinámicas ligeras de conexión a actividades más profundas de apertura y colaboración. Un facilitador especializado crea un espacio seguro donde cada participante puede expresarse, escuchar activamente y ofrecer retroalimentación constructiva. Incluye retos colaborativos diseñados para evidenciar la interdependencia, ejercicios de vulnerabilidad controlada que promueven empatía y segmentos de análisis guiado para transformar la experiencia en aprendizajes prácticos. Al cierre, el grupo identifica acuerdos de confianza y compromisos accionables que pueden integrarse a la operación diaria. El programa es adaptable a equipos presenciales, remotos o híbridos y requiere materiales mínimos. Ideal para equipos recién conformados, áreas en proceso de integración o entornos que atraviesan cambios organizacionales y necesitan fortalecer su cohesión.",
                 imagen:
-                    "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b",
+                    "https://i.ytimg.com/vi/ondXSpYy7rU/maxresdefault.jpg",
             },
             {
                 id: 102,
