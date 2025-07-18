@@ -41,7 +41,7 @@ function RegisterActivity() {
                         </select>
 
                         <label>Descripción</label>
-                        <textarea placeholder="Describe la actividad" rows="5" required></textarea>
+                        <textarea placeholder="Describe la actividad" rows="15" required></textarea>
 
                         <label>Imagen (opcional)</label>
                         <input type="file" accept="image/*" onChange={handleImageChange} />

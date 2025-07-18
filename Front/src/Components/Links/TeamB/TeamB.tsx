@@ -7,7 +7,7 @@ import "./TeamB.css";
 const empresasData = [
     {
         id: 1,
-        nombre: "Empresa A",
+        nombre: "TrackForReal",
         logo: "https://images.vexels.com/content/142887/preview/growing-logistic-company-logo-2f366b.png",
         banner: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7",
         actividades: [
@@ -15,9 +15,9 @@ const empresasData = [
                 id: 101,
                 nombre: "Dinámica de Confianza",
                 descripcion:
-                    "Actividad enfocada en fortalecer la confianza entre los miembros del equipo por medio de ejercicios guiados y reflexión grupal.",
+                    "Actividad enfocada en fortalecer la confianza entre los miembros del equipo por medio de ejercicios guiados y reflexión grupal. Se estructura en fases progresivas que van de dinámicas ligeras de conexión a actividades más profundas de apertura y colaboración. Un facilitador especializado crea un espacio seguro donde cada participante puede expresarse, escuchar activamente y ofrecer retroalimentación constructiva. Incluye retos colaborativos diseñados para evidenciar la interdependencia, ejercicios de vulnerabilidad controlada que promueven empatía y segmentos de análisis guiado para transformar la experiencia en aprendizajes prácticos. Al cierre, el grupo identifica acuerdos de confianza y compromisos accionables que pueden integrarse a la operación diaria. El programa es adaptable a equipos presenciales, remotos o híbridos y requiere materiales mínimos. Ideal para equipos recién conformados, áreas en proceso de integración o entornos que atraviesan cambios organizacionales y necesitan fortalecer su cohesión.",
                 imagen:
-                    "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b", // opcional
+                    "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b",
             },
             {
                 id: 102,
@@ -30,8 +30,8 @@ const empresasData = [
     },
     {
         id: 2,
-        nombre: "Empresa B",
-        logo: "https://images.vexels.com/content/142887/preview/growing-logistic-company-logo-2f366b.png",
+        nombre: "Innovation Corp.",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Logotipo_empresa.png",
         banner: "https://www.stelorder.com/wp-content/uploads/2021/09/portada-empresa.jpg",
         actividades: [
             {

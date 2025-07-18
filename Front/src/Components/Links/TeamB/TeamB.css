@@ -47,7 +47,7 @@
 .teamb-card-banner {
     position: relative;
     width: 100%;
-    aspect-ratio: 16 / 5;
+    aspect-ratio: 16 / 8;
     overflow: hidden;
     border-radius: 12px;
     margin-bottom: 20px;
@@ -200,8 +200,9 @@
 
 .teamb-modal-body p {
     color: #333;
-    line-height: 1.4;
+    line-height: 1.5;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .teamb-modal-actions {
