@@ -1,22 +1,245 @@
 .teamb-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+    text-align: center;
+    margin: 30px auto;
+    font-family: 'Roboto';
+    width: 90%;
+    max-width: 700px;
 }
 
-.teamb-container h1 {
+.teamb-title {
     font-size: 2.5em;
     color: #d64900;
+    font-weight: bold;
     margin-bottom: 10px;
     font-family: 'Roboto slab';
 }
 
 .teamb-description {
-    font-size: 1.2em;
-    color: #444;
-    text-align: center;
-    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.teamb-grid {
+    width: 90%;
+    margin: 0 auto 60px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
     font-family: 'Roboto';
-    max-width: 80%;
+}
+
+.teamb-card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px 20px 30px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 0.1);
+    position: relative;
+    overflow: visible;
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.teamb-card:hover {
+    box-shadow: 0 6px 16px rgb(0 0 0 / 0.15);
+}
+
+.teamb-card-banner {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 5;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.teamb-banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5) opacity(0.75);
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.teamb-card-banner:hover .teamb-banner-img {
+    transform: scale(1.2);
+}
+
+.teamb-logo-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #d64900;
+    background: #fff;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 0.25);
+}
+
+.teamb-card-title {
+    margin-top: 35px;
+    font-size: 1.4em;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.teamb-activity-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.teamb-activity-item {
+    text-align: left;
+    padding: 10px 0;
+}
+
+.teamb-activity-item.with-divider {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.teamb-activity-link {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 1em;
+    color: #d64900;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.teamb-activity-link:hover {
+    color: #a93c00;
+    text-decoration: underline;
+}
+
+.teamb-modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgb(0 0 0 / 0.8);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.teamb-modal-content {
+    background: #fff;
+    width: 100%;
+    max-width: 500px;
+    max-height: 90vh;
+    overflow-y: auto;
+    border-radius: 16px;
+    padding: 24px 24px 32px;
+    position: relative;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.teamb-modal-close {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    background: none;
+    border: none;
+    color: #999;
+    font-size: 28px;
+    line-height: 1;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.teamb-modal-close:hover {
+    color: #d64900;
+}
+
+.teamb-modal-header {
+    margin-bottom: 16px;
+}
+
+.teamb-modal-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #d64900;
+    margin-bottom: 10px;
+}
+
+.teamb-modal-header h3 {
+    font-size: 1.4em;
+    margin-bottom: 4px;
+    color: #000;
+}
+
+.teamb-modal-empresa {
+    font-size: 0.95em;
+    color: #666;
+}
+
+.teamb-modal-img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 auto 16px;
+    border: 1px solid #eee;
+}
+
+.teamb-modal-body h4 {
+    font-size: 1.1em;
+    color: #d64900;
+    margin-bottom: 8px;
+}
+
+.teamb-modal-body p {
+    color: #333;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.teamb-modal-actions {
+    display: flex;
+    justify-content: center;
+}
+
+.teamb-modal-btn {
+    background-color: #d64900;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.teamb-modal-btn:hover {
+    background-color: #a93c00;
+}
+
+@media (max-width: 768px) {
+    .teamb-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .teamb-card-title {
+        font-size: 1.3em;
+    }
+
+    .teamb-activity-link {
+        font-size: 0.95em;
+    }
 }
